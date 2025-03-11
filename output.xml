@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.1 on win32)" generated="2025-03-11T11:38:39.903759" rpa="false" schemaversion="5">
+<suite id="s1" name="Login" source="C:\QA Test Mobile\Sanber 65\suites\login.robot">
+<test id="s1-t1" name="User Should Be Able To Login with Valid Data" line="7">
+<kw name="Open Flight Application" owner="base">
+<kw name="Open Application">
+<msg time="2025-03-11T11:38:39.968388" level="FAIL">No keyword with name 'Open Application' found.</msg>
+<arg>remote_url=${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<status status="FAIL" start="2025-03-11T11:38:39.968249" elapsed="0.000297">No keyword with name 'Open Application' found.</status>
+</kw>
+<status status="FAIL" start="2025-03-11T11:38:39.958013" elapsed="0.011053">No keyword with name 'Open Application' found.</status>
+</kw>
+<kw name="Click Sign In Button On Sign In Screen" owner="homePage">
+<status status="NOT RUN" start="2025-03-11T11:38:39.970306" elapsed="0.000093"/>
+</kw>
+<kw name="Input Username" owner="loginPage">
+<status status="NOT RUN" start="2025-03-11T11:38:39.971792" elapsed="0.000106"/>
+</kw>
+<kw name="Close Fligt Application" owner="base">
+<status status="NOT RUN" start="2025-03-11T11:38:39.972821" elapsed="0.000109"/>
+</kw>
+<status status="FAIL" start="2025-03-11T11:38:39.957122" elapsed="0.016723">No keyword with name 'Open Application' found.</status>
+</test>
+<status status="FAIL" start="2025-03-11T11:38:39.905331" elapsed="0.071627"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login" id="s1" pass="0" fail="1" skip="0">Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-03-11T11:38:39.943989" level="ERROR">Error in file 'C:\QA Test Mobile\Sanber 65\pageObjects\homePage\homePage.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\QA Test Mobile\Sanber 65
+  C:\Program Files\Python313\python313.zip
+  C:\Program Files\Python313\DLLs
+  C:\Program Files\Python313\Lib
+  C:\Program Files\Python313
+  C:\QA Test Mobile\Sanber 65\.venv
+  C:\QA Test Mobile\Sanber 65\.venv\Lib\site-packages</msg>
+<msg time="2025-03-11T11:38:39.948158" level="ERROR">Error in file 'C:\QA Test Mobile\Sanber 65\pageObjects\loginPage\loginPage.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\QA Test Mobile\Sanber 65
+  C:\Program Files\Python313\python313.zip
+  C:\Program Files\Python313\DLLs
+  C:\Program Files\Python313\Lib
+  C:\Program Files\Python313
+  C:\QA Test Mobile\Sanber 65\.venv
+  C:\QA Test Mobile\Sanber 65\.venv\Lib\site-packages</msg>
+<msg time="2025-03-11T11:38:39.954281" level="ERROR">Error in file 'C:\QA Test Mobile\Sanber 65\pageObjects\base.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\QA Test Mobile\Sanber 65
+  C:\Program Files\Python313\python313.zip
+  C:\Program Files\Python313\DLLs
+  C:\Program Files\Python313\Lib
+  C:\Program Files\Python313
+  C:\QA Test Mobile\Sanber 65\.venv
+  C:\QA Test Mobile\Sanber 65\.venv\Lib\site-packages</msg>
+</errors>
+</robot>
